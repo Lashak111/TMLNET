@@ -121,7 +121,7 @@ body {
 }
 
 .footer-distributed span {
-  color: black;
+  color: #ffffff;
 }
 .Footer-Logo {
   width: 150px;
@@ -131,7 +131,8 @@ body {
 /* Footer links */
 
 .footer-distributed .footer-links {
-  color: black;
+  /* color: black; */
+  color: white;
   margin: 20px 0 12px;
   padding: 0;
 }
@@ -177,7 +178,7 @@ body {
 
 .footer-distributed .footer-center p {
   display: inline-block;
-  color: black;
+  color: white;
   font-weight: 400;
   vertical-align: middle;
   margin: 0;
@@ -188,10 +189,11 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 2;
+  color: #ffffff;
 }
 
 .footer-distributed .footer-center p a {
-  color: black;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -208,7 +210,9 @@ body {
 .footer-distributed .footer-links .link-1:before {
   content: none;
 }
-
+.number {
+  color: white;
+}
 /* Footer Right */
 
 .footer-distributed .footer-right {
@@ -217,7 +221,8 @@ body {
 
 .footer-distributed .footer-company-about {
   line-height: 20px;
-  color: black;
+  /* color: black; */
+  color: white;
   font-size: 13px;
   font-weight: normal;
   margin: 0;
@@ -225,7 +230,8 @@ body {
 
 .footer-distributed .footer-company-about span {
   display: block;
-  color: black;
+  /* color: black; */
+  color: white;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 20px;
