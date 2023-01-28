@@ -22,7 +22,7 @@ nav {
   text-align: left;
 }
 
-.logo img {
+.logo img { 
   width: 4rem;
 }
 
@@ -61,6 +61,30 @@ nav {
   display: none;
 }
 
+
+/* Section_one styling */
+
+.section_one {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+}
+.OUR_services {
+  text-align: center;
+  color: #222;
+  font-size: 25px;
+}
+.IT_outsorcing {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  max-width: 500px;
+  width: 100%;
+}
+
 /* footer  styling*/
 
 .footer-distributed {
@@ -78,13 +102,7 @@ nav {
   vertical-align: top;
 }
 
-/* Section_one */
 
-.section_one {
-  height:100vh;
-  display: flex;
-  justify-content: center;
-}
 
 
 /* Footer left */
