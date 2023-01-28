@@ -4,7 +4,7 @@ body {
 header {
   display: flex;
   justify-content: center;
-
+  margin: 50px;
 }
 nav {
   width: 100vw;
@@ -13,6 +13,8 @@ nav {
   align-items: center;
   max-width: 1170px;
   width: 100%;
+  margin: 0 auto;
+  /* height: 100vh; */
 }
 
 /*Logo*/
@@ -22,7 +24,7 @@ nav {
   text-align: left;
 }
 
-.logo img { 
+.logo img {
   width: 4rem;
 }
 
@@ -61,14 +63,13 @@ nav {
   display: none;
 }
 
-
 /* Section_one styling */
 
 .section_one {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
-  height:100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -81,7 +82,6 @@ nav {
 .IT_outsorcing_main {
   display: flex;
   justify-content: space-between;
-
 }
 
 .IT_outsorcing {
@@ -94,18 +94,17 @@ nav {
   font-size: 21px;
   color: #222;
 }
-.IT_outsorcing  p {
-  font-size:16px;
+.IT_outsorcing p {
+  font-size: 16px;
   margin-top: 35px;
   line-height: 1.4;
-  color:#222;
+  color: #222;
 }
 .IT_outsorcing_image img {
-  width: 585px;
+  max-width: 585px;
+
   height: 300px;
 }
-
-
 
 /* footer  styling*/
 
@@ -123,9 +122,6 @@ nav {
   display: inline-block;
   vertical-align: top;
 }
-
-
-
 
 /* Footer left */
 

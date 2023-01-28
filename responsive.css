@@ -16,7 +16,7 @@
     transition: all 0.7s ease;
   }
   .nav-links {
-    background: #0576e6d5;
+    background-color: royalblue;
     position: fixed;
     opacity: 1;
     height: 100vh;
