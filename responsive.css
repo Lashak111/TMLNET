@@ -1,6 +1,6 @@
 /*Responsive Adding Media Queries*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
   nav {
     position: fixed;
     z-index: 3;
@@ -16,7 +16,7 @@
     transition: all 0.7s ease;
   }
   .nav-links {
-    background-color: royalblue;
+    background: #0576e6d5;
     position: fixed;
     opacity: 1;
     height: 100vh;
@@ -79,4 +79,31 @@
   }
 }
 
+/* @media (max-width: 1024px) {
+  .nav-items {
+    display: none;
+  }
 
+  .nav-list {
+    margin-left: 0px;
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .nav-ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    background-color: #0077e654;
+    padding: 15px 0px;
+  }
+
+  .menu-btn {
+    display: block;
+    z-index: 1;
+  }
+} */
