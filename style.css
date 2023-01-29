@@ -1,17 +1,18 @@
 body {
   font-family: "BPG Mrgvlovani", sans-serif;
 }
-header {
-  max-width: 1170px;
-  width: 100%;
-  margin: 0 auto;
-}
+
+/* .section-1 {
+  height: 100vh;
+} */
 nav {
   height: 6rem;
   width: 100vw;
   display: flex;
+  justify-content: center;
   position: fixed;
   z-index: 1;
+  margin-top: 30px;
 }
 
 /*Logo*/
@@ -28,7 +29,7 @@ nav {
 /* Styling Navigation Links*/
 
 .nav-links {
-  width: 80vw;
+  width: 60vw;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -37,22 +38,16 @@ nav {
 .nav-links li a {
   text-decoration: none;
   transition: all ease-in-out 350ms;
-  padding: 10px;
-  color: #222;
+  padding: 5px;
+  /* color: #222; */
+  color: #ffffff;
+  font-size: 16px;
 }
 .nav-links li a:hover {
   background-color: #1381f0b2;
   padding: 10px;
   border-radius: 50px;
 }
-/* .nav-links li a::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 2px;
-  background-color: black;
-  margin: 5px;
-} */
 
 /*Navigation Icon Styling*/
 
@@ -66,6 +61,127 @@ nav {
 
 .hamburger {
   display: none;
+}
+
+/* first section syling */
+
+.slidercntr {
+  height: 100vh;
+  margin-bottom: 150px;
+}
+.radio {
+  display: none;
+}
+.container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+.slider {
+  width: 100%;
+  position: absolute;
+  padding-top: 56%;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.1);
+  transition: 1.3s;
+}
+
+.caption {
+  position: absolute;
+  top: 45%;
+  left:16%;
+  text-align: center;
+  color: white;
+  transition: 0.9s;
+}
+.caption p {
+  color: white;
+  font-size: 35px;
+  font-weight: bolder;
+  max-width: 1000px;
+  width: 100%;
+  margin-bottom: 10px;
+  z-index: 5;
+}
+
+.caption span {
+  display: block;
+  text-transform: initial;
+  font-size: 25px;
+  color: #ffffff;
+  z-index: 5;
+  max-width: 1000px;
+  width: 100%;
+  margin-top: 10px;
+}
+.dots {
+  width: 100%;
+  position: absolute;
+  bottom: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dots label {
+  width: 15px;
+  height: 15px;
+  background-color: #080808;
+  margin: 0 10px;
+  border-radius: 50%;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.dots label:hover {
+  opacity: 0.9;
+}
+
+#radio-1:checked ~ #slide-1,
+#radio-2:checked ~ #slide-2,
+#radio-3:checked ~ #slide-3,
+#radio-4:checked ~ #slide-4,
+#radio-5:checked ~ #slide-5 {
+  opacity: 1;
+}
+#radio-1:checked ~ #slide-1 img,
+#radio-2:checked ~ #slide-2 img,
+#radio-3:checked ~ #slide-3 img,
+#radio-4:checked ~ #slide-4 img,
+#radio-5:checked ~ #slide-5 img {
+  transform: scale(1);
+}
+
+#radio-1:checked ~ #slide-1 .caption,
+#radio-2:checked ~ #slide-2 .caption,
+#radio-3:checked ~ #slide-3 .caption,
+#radio-4:checked ~ #slide-4 .caption,
+#radio-5:checked ~ #slide-5 .caption {
+  opacity: 1;
+  top: 50%;
+}
+
+#radio-1:checked ~ .dots #label-1,
+#radio-2:checked ~ .dots #label-2,
+#radio-3:checked ~ .dots #label-3,
+#radio-4:checked ~ .dots #label-4,
+#radio-5:checked ~ .dots #label-5 {
+  background: #39a6f0;
+  opacity: 1;
 }
 
 /* footer */
@@ -245,7 +361,4 @@ nav {
   .footer-distributed .footer-center i {
     margin-left: 0;
   }
-}
-.testss {
-  height: 100vh;
 }
