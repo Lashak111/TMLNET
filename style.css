@@ -14,7 +14,6 @@ nav {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
-  /* height: 100vh; */
 }
 
 /*Logo*/
@@ -65,45 +64,8 @@ nav {
 
 /* Section_one styling */
 
-.section_one {
-  max-width: 1170px;
-  width: 100%;
-  margin: 0 auto;
+.section-one{
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-.OUR_services {
-  text-align: center;
-  color: #222;
-  font-size: 25px;
-  margin: 50px;
-}
-.IT_outsorcing_main {
-  display: flex;
-  justify-content: space-between;
-}
-
-.IT_outsorcing {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 35px;
-}
-.IT_outsorcing h3 {
-  font-size: 21px;
-  color: #222;
-}
-.IT_outsorcing p {
-  font-size: 16px;
-  margin-top: 35px;
-  line-height: 1.4;
-  color: #222;
-}
-.IT_outsorcing_image img {
-  max-width: 585px;
-
-  height: 300px;
 }
 
 /* footer  styling*/
