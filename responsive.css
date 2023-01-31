@@ -1,10 +1,11 @@
-/*Responsive Adding Media Queries*/
-
 @media screen and (max-width: 1024px) {
   nav {
     position: fixed;
     z-index: 3;
+    justify-content: left;
+    align-items: flex-start;
   }
+
   .hamburger {
     display: block;
     position: absolute;
@@ -78,32 +79,3 @@
     transform: rotate(45deg) translate(-5px, -6px);
   }
 }
-
-/* @media (max-width: 1024px) {
-  .nav-items {
-    display: none;
-  }
-
-  .nav-list {
-    margin-left: 0px;
-    display: block;
-    text-align: center;
-    padding: 15px 0;
-  }
-
-  .nav-ul {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 50px;
-    background-color: #0077e654;
-    padding: 15px 0px;
-  }
-
-  .menu-btn {
-    display: block;
-    z-index: 1;
-  }
-} */
