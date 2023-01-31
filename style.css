@@ -185,15 +185,17 @@ nav {
 }
 .it-outsorcing {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin: 0 auto;
   margin-bottom: 50px;
 }
+.test {
+  flex-wrap: wrap;
+}
 .outsorcing-img img {
-  width: 500px;
+  max-width: 500px;
   height: 250px;
-  margin-right: 50px;
 }
 .outsorcing-description {
   max-width: 500px;
@@ -206,7 +208,7 @@ nav {
 .outsorcing-description p {
   line-height: 1.5;
   text-align: left;
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 .outsorcing-description p span {
   font-weight: bold;
