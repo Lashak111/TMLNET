@@ -1,4 +1,11 @@
 @media screen and (max-width: 1024px) {
+  .outsorcing-img img {
+    margin: 25px;
+  }
+  .outsorcing-description p {
+    text-align: center;
+  }
+
   nav {
     position: fixed;
     z-index: 3;
@@ -77,5 +84,48 @@
 
   .toggle .bars3 {
     transform: rotate(45deg) translate(-5px, -6px);
+  }
+}
+
+@media (max-width: 880px) {
+  .slidercntr {
+    display: none;
+  }
+  .teset22 {
+    height: 10vh;
+    margin-bottom: 100px;
+  }
+
+  .caption p {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    z-index: 5;
+  }
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 525px) {
+  .outsorcing-img img {
+    width: 100%;
+  }
+  .outsorcing-description p {
+    font-size: 16px;
   }
 }
