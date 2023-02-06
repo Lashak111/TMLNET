@@ -154,14 +154,16 @@ nav {
 #radio-2:checked ~ #slide-2,
 #radio-3:checked ~ #slide-3,
 #radio-4:checked ~ #slide-4,
-#radio-5:checked ~ #slide-5 {
+#radio-5:checked ~ #slide-5,
+#radio-6:checked ~ #slide-6 {
   opacity: 1;
 }
 #radio-1:checked ~ #slide-1 img,
 #radio-2:checked ~ #slide-2 img,
 #radio-3:checked ~ #slide-3 img,
 #radio-4:checked ~ #slide-4 img,
-#radio-5:checked ~ #slide-5 img {
+#radio-5:checked ~ #slide-5 img,
+#radio-6:checked ~ #slide-6 img {
   transform: scale(1);
 }
 
@@ -169,7 +171,8 @@ nav {
 #radio-2:checked ~ #slide-2 .caption,
 #radio-3:checked ~ #slide-3 .caption,
 #radio-4:checked ~ #slide-4 .caption,
-#radio-5:checked ~ #slide-5 .caption {
+#radio-5:checked ~ #slide-5 .caption,
+#radio-6:checked ~ #slide-6 .caption {
   opacity: 1;
   top: 50%;
 }
@@ -178,7 +181,8 @@ nav {
 #radio-2:checked ~ .dots #label-2,
 #radio-3:checked ~ .dots #label-3,
 #radio-4:checked ~ .dots #label-4,
-#radio-5:checked ~ .dots #label-5 {
+#radio-5:checked ~ .dots #label-5,
+#radio-6:checked ~ .dots #label-6 {
   background: #39a6f0;
   opacity: 1;
 }
@@ -213,7 +217,7 @@ nav {
 }
 
 .outsorcing-img img {
-  max-width: 450px;
+  width: 500px;
   height: 250px;
 }
 .outsorcing-description {
@@ -387,4 +391,3 @@ nav {
   margin-bottom: 5px;
   border-radius: 50%;
 }
-
