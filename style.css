@@ -17,7 +17,6 @@ nav {
 }
 .teset22 {
   height: 10vh;
-  /* margin-bottom: 100px; */
 }
 
 /*Logo*/
@@ -131,7 +130,7 @@ nav {
 .dots {
   width: 100%;
   position: absolute;
-  bottom: 20%;
+  bottom: 28%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -153,26 +152,20 @@ nav {
 #radio-1:checked ~ #slide-1,
 #radio-2:checked ~ #slide-2,
 #radio-3:checked ~ #slide-3,
-#radio-4:checked ~ #slide-4,
-#radio-5:checked ~ #slide-5,
-#radio-6:checked ~ #slide-6 {
+#radio-4:checked ~ #slide-4 {
   opacity: 1;
 }
 #radio-1:checked ~ #slide-1 img,
 #radio-2:checked ~ #slide-2 img,
 #radio-3:checked ~ #slide-3 img,
-#radio-4:checked ~ #slide-4 img,
-#radio-5:checked ~ #slide-5 img,
-#radio-6:checked ~ #slide-6 img {
+#radio-4:checked ~ #slide-4 img {
   transform: scale(1);
 }
 
 #radio-1:checked ~ #slide-1 .caption,
 #radio-2:checked ~ #slide-2 .caption,
 #radio-3:checked ~ #slide-3 .caption,
-#radio-4:checked ~ #slide-4 .caption,
-#radio-5:checked ~ #slide-5 .caption,
-#radio-6:checked ~ #slide-6 .caption {
+#radio-4:checked ~ #slide-4 .caption {
   opacity: 1;
   top: 50%;
 }
@@ -180,9 +173,7 @@ nav {
 #radio-1:checked ~ .dots #label-1,
 #radio-2:checked ~ .dots #label-2,
 #radio-3:checked ~ .dots #label-3,
-#radio-4:checked ~ .dots #label-4,
-#radio-5:checked ~ .dots #label-5,
-#radio-6:checked ~ .dots #label-6 {
+#radio-4:checked ~ .dots #label-4 {
   background: #39a6f0;
   opacity: 1;
 }
