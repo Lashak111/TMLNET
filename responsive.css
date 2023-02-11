@@ -96,13 +96,6 @@
     margin-bottom: 100px;
   }
 
-  .caption p {
-    color: white;
-    font-size: 25px;
-    font-weight: bolder;
-    margin-bottom: 20px;
-    z-index: 5;
-  }
   .footer-distributed {
     font: bold 14px sans-serif;
   }
@@ -122,10 +115,26 @@
 }
 
 @media (max-width: 525px) {
-  .outsorcing-img img {
-    width: 100%;
-  }
   .outsorcing-description p {
     font-size: 16px;
   }
+}
+
+@media (max-width: 790px) {
+  .outsorcing-img img {
+    width: 400px;
+    height: 250px;
+  }
+  .outsorcing-description p {
+    line-height: 1.3;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 470px) {
+  .outsorcing-img img {
+    width: 350px;
+    height: 230px;
+  }
+ 
 }

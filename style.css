@@ -67,6 +67,7 @@ nav {
   display: none;
 }
 
+
 /* first section syling */
 
 .slidercntr {
@@ -111,17 +112,12 @@ nav {
 
 .caption {
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 25%;
   transition: 0.9s;
-  background-color: rgba(34, 34, 34, 0.699);
-  padding: 5px;
-  max-width: 1170px;
-  margin: 0 auto;
-  align-items: center;
 }
 .caption p {
-  position: relative;
+  /* position: relative; */
   color: white;
   font-size: 35px;
   font-weight: bolder;
