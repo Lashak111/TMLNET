@@ -1,11 +1,12 @@
 body {
   font-family: "BPG Mrgvlovani", sans-serif;
-  /* padding: 20px; */
 }
 html {
   scroll-behavior: smooth;
-  scroll-snap-type: proximity;
+  scroll-padding-top: 120px;
 }
+
+/* navigation */
 nav {
   height: 6rem;
   width: 100vw;
@@ -66,7 +67,6 @@ nav {
 .hamburger {
   display: none;
 }
-
 
 /* first section syling */
 
@@ -213,6 +213,7 @@ nav {
   font-size: 28px;
   font-weight: 300;
   margin-bottom: 20px;
+  line-height: 1.2;
 }
 .outsorcing-description p {
   font: optional;
@@ -223,8 +224,6 @@ nav {
   font-weight: bold;
   color: #065aad;
 }
-
-
 
 /* footer */
 
@@ -273,6 +272,9 @@ nav {
   text-decoration: none;
   color: inherit;
 }
+.footer-distributed .footer-links a:hover {
+  text-shadow: 0 0 3px #c9c1bf, 0 0 5px white !important;
+}
 .footer-distributed .footer-links a:before {
   content: "|";
   font-weight: 300;
@@ -312,6 +314,8 @@ nav {
   margin: 10px 15px;
   vertical-align: middle;
 }
+
+
 
 .footer-distributed .footer-center i.fa-envelope {
   font-size: 17px;
@@ -380,3 +384,10 @@ nav {
   margin-bottom: 5px;
   border-radius: 50%;
 }
+
+
+
+  
+.footer-distributed .footer-icons a:hover {
+background-color:aliceblue;
+} 
