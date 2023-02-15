@@ -225,6 +225,20 @@ nav {
   color: #065aad;
 }
 
+/* brandssection */
+.brands-section {
+  height: 100vh;
+}
+
+.brandbox-main {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.brandbox-main img {
+  max-width: 300px;
+  height: 100px;
+}
 /* footer */
 
 .footer-distributed {
@@ -315,8 +329,6 @@ nav {
   vertical-align: middle;
 }
 
-
-
 .footer-distributed .footer-center i.fa-envelope {
   font-size: 17px;
   line-height: 38px;
@@ -385,9 +397,6 @@ nav {
   border-radius: 50%;
 }
 
-
-
-  
 .footer-distributed .footer-icons a:hover {
-background-color:aliceblue;
-} 
+  background-color: aliceblue;
+}
