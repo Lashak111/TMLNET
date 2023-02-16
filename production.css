@@ -1,4 +1,21 @@
 /* product section  */
+
+.commingsoon {
+  margin-top: 150px;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+}
+
+.commingsoon h2 {
+   font-size: 40px;
+   font-weight: bold;
+}
+.commingsoon img {
+  max-width: 500px;
+  width: 100%;
+}
+
 .product-section {
   height: 100vh;
   text-align: center;
