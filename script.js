@@ -13,17 +13,6 @@ hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("toggle");
 });
 
-
-
-
-
-
-
-
-
-
-
-
 // product slider
 
 filterSelection("all"); // Execute the function and show all columns
