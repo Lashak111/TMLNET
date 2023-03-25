@@ -39,7 +39,7 @@
             <li><a href="index.html">მთავარი</a></li>
             <li><a href="#our-services-container">სერვისები</a></li>
             <li><a href="production.html">პროდუქცია</a></li>
-            <li><a href="#footer">კონტაქტი</a></li>
+            <li><a href="contact.html">კონტაქტი</a></li>
           </ul>
         </nav>
       </header>
@@ -60,16 +60,16 @@
           <input type="radio" class="radio" name="images" id="radio-4" />
 
           <div class="slide" id="slide-1">
-            <img
-              src="images/299716645_105393885621537_6113258706774025306_n.jpg"
-              alt=""
-            />
+            <img src="images/WizMind-S-Series_384016002.jpg" alt="" />
             <!-- <div class="caption">
               <p>IT აუთსორსინგი და სააბონენტო მომსახურება</p>
             </div> -->
           </div>
           <div class="slide" id="slide-2">
-            <img src="images/WizMind-S-Series_384016002.jpg" alt="" />
+            <img
+              src="images/299716645_105393885621537_6113258706774025306_n.jpg"
+              alt=""
+            />
             <!-- <div class="caption">
               <p>სათვალთვალო კამერების დაგეგმარება და მონტაჟი</p>
             </div> -->
@@ -198,15 +198,6 @@
       </div>
     </section>
 
-    <!-- <section class="brands-section">
-      <div class="brandbox-main">
-        <div> <img src="images/dahua-logo.png" alt=""> </div>
-        <div> <img src="images/hik-logo.png" alt=""> </div>
-        <div> <img src="images/hiwatch-logo.png" alt=""></div>
-        <div> <img src="images/imou-logo.png" alt=""></div>
-      </div>
-    </section> -->
-
     <!-- footer -->
 
     <footer class="footer-distributed" id="footer">
@@ -218,7 +209,7 @@
           <a href="index.html" class="link-1">მთავარი</a>
           <a href="#our-services-container"> სერვისები </a>
           <a href="#product-section"> პროდუქცია </a>
-          <a href="#footer">კონტაქტი</a>
+          <a href="contact.html">კონტაქტი</a>
         </ul>
 
         <p class="footer-company-name">TMLNET © 2022 ყველა უფლება დაცულია</p>
@@ -277,6 +268,37 @@
         </div>
       </div>
     </footer>
+    <!-- Messenger საუბრის დანამატი Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your საუბრის დანამატი code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
+
+    <script>
+      var chatbox = document.getElementById("fb-customer-chat");
+      chatbox.setAttribute("page_id", "105356858958573");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v16.0",
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
     <script src="script.js"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-@media  (max-width: 1024px) {
+@media (max-width: 1024px) {
   .outsorcing-img img {
     margin: 25px;
   }
@@ -112,6 +112,9 @@
   .footer-distributed .footer-center i {
     margin-left: 0;
   }
+  .contact-section {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 525px) {
@@ -136,5 +139,10 @@
     width: 350px;
     height: 230px;
   }
- 
+  .contact-box div a {
+    font-size: 18px;
+  }
+  .contact-box h3 {
+    font-size: 25px;
+  }
 }
